@@ -9,7 +9,7 @@
    1. Шаблон полностью готов к работе с  Docker, информация по контейнерам и докеру [жми бля](https://docs.docker.com/get-docker/).
    2. Запускаем проект консольной командой `docker-compose up`
 4. **Без Docker(Локально):**
-   1. Создадим  [venv](https://docs.python.org/3/library/venv.html)
+   1. Создадим  [venv](https://docs.python.org/3/library/venv.html) `python3 -m env venv && source venv/bin/activate`
    2. Далее установим зависимости, которые прописаны в файле requirements.txt: `pip3 install -r requirements.txt`
    3. Запуск проекта консольной командой: `python3 bot.py`
 
